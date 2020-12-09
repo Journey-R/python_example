@@ -35,8 +35,7 @@ print(solution(input_str4)) # print : 9, 7, 6, 8, 4, 5
 
 # 저자 코드 --------------------------------------------------------------------------------------
 # 저자 코드에서 else 내부에 break가 있어서 없는 다음 숫자의 존재 여부를 체크하지 않는다.
-# -> 저자 코드 아래에 저자코드 수정한 코드 추가
-
+# link : https://github.com/doorBW/Django_with_PracticeExamples/blob/master/example/chapter1/1-2_find_num.py
 def solution_book(input_str):
     answer = ""
     for i in range(10):
